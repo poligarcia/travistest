@@ -6,6 +6,7 @@ services:
 script:
   - docker container list
 
+
 #before_deploy:
 #  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASS";
 
