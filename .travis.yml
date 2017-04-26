@@ -1,0 +1,17 @@
+sudo: required
+
+services:
+  - docker
+  
+script:
+  - docker container list
+
+#before_deploy:
+#  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASS";
+
+#deploy:
+#  provider: script
+#  skip_cleanup: true
+#  script: ./scripts/update_testing.sh
+#  on:
+#    tags: true
